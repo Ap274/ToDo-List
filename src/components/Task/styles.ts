@@ -10,12 +10,17 @@ export const styles = StyleSheet.create({
         paddingRight: 8,
         paddingVertical: 12,
         paddingLeft: 12,
+        borderWidth: 1, 
+        borderColor: colors.gray400,
+        borderRadius: 8,
+        marginBottom: 12,
+        backgroundColor: colors.gray500
     },
 
     circle: {
         width: 18,
         height: 18,
-        borderRadius: 999,
+        borderRadius: 99,
         alignItems: 'center',
         justifyContent: 'center',
         borderWidth: 1.75,
@@ -24,7 +29,7 @@ export const styles = StyleSheet.create({
 
     circleChecked: {
         backgroundColor: colors.purpleDark, 
-        borderColor: colors.purpleDark
+        borderColor: colors.purpleDark,
     },
 
     check: {
@@ -35,6 +40,11 @@ export const styles = StyleSheet.create({
         color: colors.gray100,
         fontFamily: fontFamily.regular,
         fontSize: fontSize.md,
+    },
+
+    checkedText: {
+        textDecorationLine: "line-through",
+        color: colors.gray300,
     },
 
     textContainer: {

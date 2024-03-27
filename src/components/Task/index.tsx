@@ -1,30 +1,32 @@
-import { View, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity, Alert } from "react-native";
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Trash from 'react-native-vector-icons/Feather';
 import { useState } from "react";
 
 import { styles } from "./styles";
+import { TasksProps } from "../../screens/Home";
 
-export function Task() {
-    const [isChecked, setIsChecked] = useState(false);
+interface TaskProps {
+    content: TasksProps;
+    onDelete: (tasksId: string) => void;
+    onComplete: (tasksId: string) => void;
+}
 
-    const toggleCheck = () => {
-        setIsChecked(!isChecked);
-    };
+export function Task({content, onDelete, onComplete}: TaskProps) {
 
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={toggleCheck}>
-                <View style={[styles.circle, isChecked && styles.circleChecked]}>
-                    {isChecked && <Text><Icon name="check" size={8} style={styles.check} color="white" /></Text>}
+            <TouchableOpacity onPress={() => onComplete(content.id)}>
+                <View style={[styles.circle, !content.isCompleted && styles.circleChecked]}>
+                    {content.isCompleted ? null: <Icon name="check" size={12} style={styles.check} />}
                 </View>
             </TouchableOpacity>
 
             <View style={styles.textContainer}>
-                <Text style={styles.text}>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</Text>
+                <Text style={[styles.text, !content.isCompleted && styles.checkedText]}>{content.content}</Text>
             </View>
             
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => onDelete(content.id)}>
                 <Trash name="trash-2" size={20} style={styles.trashButton} />
             </TouchableOpacity>
         </View>

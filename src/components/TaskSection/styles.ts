@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
         fontSize: fontSize.md,
         fontFamily: fontFamily.bold
     },
-
+    
     done: {
         color: colors.purple,
         fontSize: fontSize.md,

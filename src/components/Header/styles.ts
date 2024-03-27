@@ -21,7 +21,4 @@ export const styles = StyleSheet.create({
         resizeMode: "contain"
     },
 
-    newTaskContainer: {
-        marginTop: 169,
-    },
 })
