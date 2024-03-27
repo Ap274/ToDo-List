@@ -1,0 +1,6 @@
+<h2>React Native Project</h2>
+
+<p>This challenge aims to develop a To Do List application - a list of everyday tasks, to create something like a personal agenda.</p>
+<p>Its development was based on the Figma screens made available in the first challenge of Rocketseat's 🚀 react native module, as shown in the figure below:</p>
+
+![FigmaImage](https://private-user-images.githubusercontent.com/67757479/317505612-c2b2afe3-26cf-4d6f-8378-c5731dec9ae5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE1NzEyMzUsIm5iZiI6MTcxMTU3MDkzNSwicGF0aCI6Ii82Nzc1NzQ3OS8zMTc1MDU2MTItYzJiMmFmZTMtMjZjZi00ZDZmLTgzNzgtYzU3MzFkZWM5YWU1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzI3VDIwMjIxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVjYTlhN2MxZDUxNDc0Mzg4YjAwM2EwOGZjYzliMjNjMzg5YmY2N2NhYTA5OTk1MWE0YWI0MjljM2IwMzY3Y2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0rgePTsDx6PbjFYVOBfBp_GiBYM-h7nO-giGISSp6T0)
