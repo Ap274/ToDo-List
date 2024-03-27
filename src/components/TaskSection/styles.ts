@@ -11,7 +11,8 @@ export const styles = StyleSheet.create({
 
     definitions: {
         flexDirection: "row",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+        marginBottom: 20
     },
 
     definitionsContainer: {
@@ -40,6 +41,30 @@ export const styles = StyleSheet.create({
     },
 
     text: {
-        color: colors.gray200
+        color: colors.gray200,
+        fontFamily: fontFamily.bold,
+        fontSize: fontSize.sm
+    },
+
+    clipboard: {
+        paddingVertical: 48,
+        paddingHorizontal: 20,
+        justifyContent: "center",
+        alignItems: "center",
+        rowGap: 16,
+    },
+    
+    image: {
+        height: 56,
+        width: 56
+    },
+
+    clipboardText: {
+        color: colors.gray300,
+        fontFamily: fontFamily.regular,
+        fontSize: fontSize.md,
+    },
+    fontBold: {
+        fontFamily: fontFamily.bold
     }
 })
